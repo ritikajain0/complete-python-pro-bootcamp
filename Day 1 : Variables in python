@@ -1,4 +1,4 @@
-//printing statements
+#printing statements
 
 print("Hello World!!")
 print("welcome !")
@@ -6,3 +6,6 @@ print("welcome !")
 OR
 
 print("hello world !\nWelcome !")
+
+# printing by taking input from console
+print("hello " + input("what is your name?")
