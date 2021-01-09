@@ -1,1 +1,8 @@
+//printing statements
+
 print("Hello World!!")
+print("welcome !")
+
+OR
+
+print("hello world !\nWelcome !")
