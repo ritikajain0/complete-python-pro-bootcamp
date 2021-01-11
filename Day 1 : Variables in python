@@ -1,11 +1,6 @@
-#printing statements
+# code to calculate tip to be given
+print("Welcome To Band Name Generator")
+city=input("What city did you grow up in ?\n")
+pet=input("what is the name of your pet?\n")
+print("Your band name could be "+city+" "+pet)
 
-print("Hello World!!")
-print("welcome !")
-
-OR
-
-print("hello world !\nWelcome !")
-
-# printing by taking input from console
-print("hello " + input("what is your name?")
