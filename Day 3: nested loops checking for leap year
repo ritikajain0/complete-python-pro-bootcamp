@@ -1,0 +1,13 @@
+# IT IS A CODE FOR PROGRAM TO CHECK WHETHER A YEAR IS LEAP OR NT BY USING NESTED CONDITIONAL STATEMENTS
+
+year=int(input("input year"))
+if year%4==0:
+  if year%100==0:
+    if year%400==0:
+      print("it is a leap year !")
+    else:
+      print("it is not a leap year !")
+  else:
+    print("it is a leap year !")
+else:
+  print("it is not a leap year !")
