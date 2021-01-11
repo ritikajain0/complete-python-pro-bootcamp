@@ -1,0 +1,17 @@
+# CODE TO CALCULATE REMAINING MONTHS , WEEKS AND DAYS FROM A PERSON'S LIFE
+# ASSUMING THAT TOTAL AGE FOR HUMAN BEING IS 90 YEARS 
+# TAKING INPUT AS AGE OF PERSON
+
+age=input("enter age")
+total_years=90
+total_months=12*90
+total_weeks=52*int(total_years)
+total_days=365*int(total_years)
+completed_years=int(age)
+completed_months=12*completed_years
+completed_weeks=52*completed_years
+completed_days=365*completed_years
+rem_m=int(total_months-completed_months)
+rem_w=int(total_weeks-completed_weeks)
+rem_d=int(total_days-completed_days)
+print(f"you have {rem_m} months , {rem_w} weeks , {rem_d} days left")
