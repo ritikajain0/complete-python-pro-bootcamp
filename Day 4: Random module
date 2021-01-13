@@ -1,0 +1,16 @@
+# random funtion is used to generate random numbers between a range like random.randint(0,1) both including
+# seed is a fix number with every random number 
+# if we input the same seed number any times , the random number generated will be same in all times.
+# here , random int number is being generated between 0 and 1 , if 0 print heads else tails
+# for generating floating numbers randomly , random functin is used like random.random(0,1) 
+# here , 0 will be included but not 1 and any floating number between 0 and 0.99999... will be genrated
+
+
+import random
+test_seed=int(input("seed number"))
+random.seed(test_seed)
+random_side=random.randint(0,1)
+if random_side==1:
+  print("Heads")
+else:
+  print("Tails")
